@@ -1,0 +1,10 @@
+
+[BASIC]
+method-rgx=^([_a-z][a-z0-9_]*|__[a-z0-9_]+__|runTest|setUp|tearDown|setUpTestCase|tearDownTestCase|setupSelf|tearDownClass|setUpClass)$
+
+[MESSAGES CONTROL]
+# C0111 Missing docstring
+# R0903 Too few public methods
+# R0904 Too many public methods
+# W0212 Access to a protected member %s of a client class
+disable=C0111,R0903,R0904,W0212
