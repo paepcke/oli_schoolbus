@@ -4,3 +4,8 @@ examples/*
 .project
 .pydevproject
 
+build
+dist
+*~
+example_data/
+oli_schoolbus.egg-info/
