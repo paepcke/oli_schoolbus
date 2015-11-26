@@ -11,7 +11,8 @@ setup(
     # Dependencies on other packages:
     setup_requires   = ['nose>=1.1.2'],
     tests_require    = test_requirements,
-    install_requires = ['redis_bus_python>=0.0.2'
+    install_requires = ['redis_bus_python>=0.0.2',
+			'tornado>=4.3',
 			] + test_requirements,
 
     # Unit tests; they are initiated via 'python setup.py test'
@@ -31,7 +32,7 @@ setup(
     author_email = "paepcke@cs.stanford.edu",
     description = "Example OLI analysis via SchoolBus communication.",
     license = "BSD",
-    zip_safe = False,
+    #zip_safe = False,
     keywords = "OLI",
     url = "git@github.com:paepcke/oli_schoolbus.git" # project home page, if any
 )
